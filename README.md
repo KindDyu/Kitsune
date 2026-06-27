@@ -1,24 +1,31 @@
 # Kitsune
-O downloader astuto que irá te ajudar a baixar tudo.
+O downloader astuto que simplifica o download de vídeos e áudios de diversas plataformas.
 
-## Pré-requisitos
-Para utilizar este script, você precisa de uma ferramenta de código aberto instalada em sua máquina:
+O **Kitsune** é um script interativo que automatiza o uso do `yt-dlp` com uma interface amigável. Ele permite escolher qualidade, extrair áudio ou baixar com dublagem de forma simples, sem precisar digitar comandos complexos.
+
+## 🛠 Pré-requisitos
+Para que o Kitsune funcione, as seguintes ferramentas devem estar instaladas no seu sistema:
 * [**yt-dlp**](https://github.com/yt-dlp/yt-dlp): 
 *  * [**FFmpeg**](https://ffmpeg.org/download.html)
 *  * [**Deno**](https://github.com/denoland/deno/)
 
-1. Abra o Terminal e cole o comando abaixo:
+A maneira mais fácil de instalar todas as dependências de uma vez é usando o gerenciador de pacotes `winget`.
+1. Abra o **Terminal** (PowerShell ou CMD) como administrador:
+2. Execute o seguinte comando:
 ```
    winget install -e --id yt-dlp.yt-dlp
 ```
-2. O comando irá baixar o **yt-dlp** e as dependências necessárias como **FFmpeg** e **Deno**.
 
-## Instalação e uso
-1. Baixe o script `Kitsune.bat` do [repositório](https://github.com/KindDyu/Kitsune/releases).
-2. Adicione o arquivo (`.bat`) aonde quiser baixar os vídeos e áudios.
-3. Abra clicando duas vezes no `.bat`.
-4. Selecione o que você desejada: Qualidade, Somente áudio ou Dublagem.
-5. Aperte `D` para prosseguir ao download.
+## 📥 Instalação e uso
+1. Baixe o arquivo `Kitsune.bat` mais recente na seção de [Releases](https://github.com/KindDyu/Kitsune/releases).
+2. Mova o arquivo `Kitsune.bat` para a pasta onde você deseja salvar seus downloads (ex: C:\Downloads\Kitsune).
+3. Dê um duplo clique no arquivo. Uma janela de terminal abrirá exibindo o menu interativo.
+4. Utilize as opções apresentadas na tela:
+   * Digite a opção desejada para selecionar **Qualidade**, **Somente Áudio** ou **Dublagem**.
+   * Pressione a tecla `D` para confirmar e iniciar o download.
+   * Siga as instruções na tela para inserir a URL do vídeo.
 
-## Créditos
-Código original feito por [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
+## 🙏 Créditos
+Este projeto é uma adaptação e melhoria do script original criado por [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
+
+#### Feito com ❤️ para facilitar seus downloads.
