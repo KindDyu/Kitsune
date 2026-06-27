@@ -14,7 +14,7 @@ Para utilizar este script, você precisa de uma ferramenta de código aberto ins
 2. O comando irá baixar o **yt-dlp** e as dependências necessárias como **FFmpeg** e **Deno**.
 
 ## Instalação e uso
-1. Baixe o script `Kitsune.bat` do repositório.
+1. Baixe o script `Kitsune.bat` do [repositório](https://github.com/KindDyu/Kitsune/releases).
 2. Adicione o arquivo (`.bat`) aonde quiser baixar os vídeos e áudios.
 3. Abra clicando duas vezes no `.bat`.
 4. Selecione o que você desejada: Qualidade, Somente áudio ou Dublagem.
