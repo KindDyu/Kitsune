@@ -1,21 +1,23 @@
 # Kitsune
 O downloader astuto que simplifica o download de vídeos e áudios de diversas plataformas.
 
-<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/a6e5ec6b-4206-4de5-9cfb-7f2a968dc900" />
+<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/25d631f6-9480-4415-b7d2-e7f6288b29dc" />
+
 
 O **Kitsune** é um script interativo que automatiza o uso do `yt-dlp` com uma interface amigável. Ele permite escolher qualidade, extrair áudio ou baixar com dublagem de forma simples, sem precisar digitar comandos complexos.
 
 ## 🛠 Pré-requisitos
 Para que o Kitsune funcione, as seguintes ferramentas devem estar instaladas no seu sistema:
-* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp): 
+* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp):
 *  * [**FFmpeg**](https://ffmpeg.org/download.html)
 *  * [**Deno**](https://github.com/denoland/deno/)
+* [**gallery-dl**](https://github.com/mikf/gallery-dl)
 
 A maneira mais fácil de instalar todas as dependências de uma vez é usando o gerenciador de pacotes `winget`.
 1. Abra o **Terminal** (PowerShell ou CMD) como administrador:
 2. Execute o seguinte comando:
 ```
-   winget install -e --id yt-dlp.yt-dlp
+winget install -e --id yt-dlp.yt-dlp mikf.gallery-dl
 ```
 
 ## 📥 Instalação e uso
