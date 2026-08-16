@@ -2,6 +2,8 @@
 
 Kitsune é uma interface interativa em português que elimina a necessidade de aprender linha de comando.
 
+![Menu principal do Kitsune](screenshots/Kitsune.png)
+
 ---
 
 ## Instalação (Windows)
@@ -11,24 +13,25 @@ Abra o **Terminal** (PowerShell ou CMD) como Administrador e cole:
 winget install -e --id yt-dlp.yt-dlp mikf.gallery-dl
 ```
 
-### Clone o repositório Kitsune e execute
+### Clone ou baixe manualmente o arquivo em [Releases](https://github.com/KindDyu/Kitsune/releases)
 ```powershell
 git clone https://github.com/KindDyu/Kitsune.git
 ```
 
-![Menu principal do Kitsune](screenshots/Kitsune.png)
-
-## Como Funciona
-1. **Escolha a ferramenta:** yt-dlp (áudio, vídeo), gallery-dl (imagem)
-2. **Selecione o tipo:** vídeo, áudio, imagem
-3. **Defina qualidade:** de 144p até 2140p (4K) com dublagem preferencial
-4. **Pronto**
+## Como Funciona?
+1. Escolha o **Tipo de download** com "[ 1 ]".
+   - Tipo de download: **Vídeo** (padrão), **Imagem** e **Áudio**.
+   - Mude as **Preferências de formato**: **Qualidade** com "[ Q ]" e **Dublagem** com "[ D ]".
+2. Em **Ações**:
+   - [ U ] para Atualizar (Update) as ferramentas (`yt-dlp` e `gallery-dl`)
+   - [ B ] para prosseguir ao download
+   - [ S ] para sair
 
 > [!WARNING]
-> O download será salvo na mesma pasta onde o `.bat` está localizado.
+> O arquivo baixado será salvo na mesma pasta onde o `.bat` está localizado.
 
 ## Contribuições (mesmo não sendo programador)
-Se te ajudou, tiver sugestões ou encontrou um bug, me avise.
+Se tiver sugestões ou encontrou um bug, me avise.
 - ["Create new issue"](https://github.com/KindDyu/Kitsune/issues/new)
 
 ## Créditos
