@@ -1,6 +1,32 @@
 # Kitsune
 
-Kitsune é uma interface interativa em português que elimina a necessidade de aprender linha de comando.
+> *"Ferramentas boas não precisam ser complicadas. Se o usuário precisa ler um manual com várias páginas para baixar um vídeo, a ferramenta falhou."*
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">Kitsune</h3>
+      <p align="center">
+        <a href="https://github.com/KindDyu/Kitsune">
+          <img src="https://img.shields.io/badge/Kitsune-repo-6d4aff?style=for-the-badge&logo=github&logoColor=white" alt="Kitsune repo" />
+        </a>
+      </p>
+      <p align="center">
+        Interface interativa em português que elimina a necessidade de aprender linha de comando.
+      </p>
+    </td>
+    <td width="50%" valign="middle" align="center">
+      <p><b>Funcionalidades principais:</b></p>
+      <p align="left">
+        ✅ Menu interativo zero-curva de aprendizado<br>
+        ✅ Atualização automática integrada<br>
+        ✅ Tipo de download: vídeo, áudio e imagem<br>
+        ✅ Qualidade de vídeo de 144p até 2140p (4K)<br>
+        ✅ Dublagem preferencial<br>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ![Menu principal do Kitsune](screenshots/Kitsune.png)
 
@@ -17,18 +43,6 @@ winget install -e --id yt-dlp.yt-dlp mikf.gallery-dl
 ```powershell
 git clone https://github.com/KindDyu/Kitsune.git
 ```
-
-## Como Funciona?
-1. Escolha o **Tipo de download** com "[ 1 ]".
-   - Tipo de download: **Vídeo** (padrão), **Imagem** e **Áudio**.
-   - Mude as **Preferências de formato**: **Qualidade** com "[ Q ]" e **Dublagem** com "[ D ]".
-2. Em **Ações**:
-   - [ U ] para Atualizar (Update) as ferramentas (`yt-dlp` e `gallery-dl`)
-   - [ B ] para prosseguir ao download
-   - [ S ] para sair
-
-> [!WARNING]
-> O arquivo baixado será salvo na mesma pasta onde o `.bat` está localizado.
 
 ## Contribuições (mesmo não sendo programador)
 Se tiver sugestões ou encontrou um bug, me avise.
