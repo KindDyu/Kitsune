@@ -1,9 +1,4 @@
 # Kitsune
-Pare de decorar comandos do `yt-dlp` e `gallery-dl` para sempre.
-
-<!--
-![Menu Interativo do Kitsune](https://github.com/user-attachments/assets/25d631f6-9480-4415-b7d2-e7f6288b29dc)
--->
 
 ## Instalação (Windows)
 ### Instalar todas as dependências de uma vez
