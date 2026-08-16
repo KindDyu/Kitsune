@@ -1,48 +1,38 @@
 # Kitsune
-O downloader astuto que simplifica o download de vídeos e áudios de diversas plataformas.
+Pare de decorar comandos do `yt-dlp` e `gallery-dl` para sempre.
 
-<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/25d631f6-9480-4415-b7d2-e7f6288b29dc" />
+<!--
+![Menu Interativo do Kitsune](https://github.com/user-attachments/assets/25d631f6-9480-4415-b7d2-e7f6288b29dc)
+-->
 
-O **Kitsune** é um script interativo amigável para o `yt-dlp` que elimina a necessidade de comandos complexos na linha de comando. Interface em terminal com menu interativo em português.
-
-## 🛠 Pré-requisitos
-Para que o Kitsune funcione, as seguintes ferramentas devem estar instaladas no seu sistema:
-* [**yt-dlp**](https://github.com/yt-dlp/yt-dlp):
-*  * [**FFmpeg**](https://ffmpeg.org/download.html)
-*  * [**Deno**](https://github.com/denoland/deno/)
-* [**gallery-dl**](https://github.com/mikf/gallery-dl)
-
-A maneira mais fácil de instalar todas as dependências de uma vez é usando o gerenciador de pacotes `winget`.
-1. Abra o **Terminal** (PowerShell ou CMD) como administrador:
-2. Execute o seguinte comando:
-```
+## Instalação (Windows)
+### Instalar todas as dependências de uma vez
+Abra o **Terminal** (PowerShell ou CMD) como Administrador e cole:
+```powershell
 winget install -e --id yt-dlp.yt-dlp mikf.gallery-dl
 ```
 
-## 📥 Instalação
-### Passo 1: Instale as dependências
-### Passo 2: Baixe o Kitsune
-1. Acesse a [seção de Releases](https://github.com/KindDyu/Kitsune/releases)
-2. Baixe o arquivo `Kitsune.bat` mais recente
-3. Salve em uma pasta dedicada
-### Passo 3: Execute
-Dê duplo-clique no `Kitsune.bat`. O menu interativo abrirá automaticamente.
+### Clone o repositório Kitsune e execute
+```powershell
+git clone https://github.com/KindDyu/Kitsune.git
+```
 
-## 🚀 Uso Rápido
-1. Escolha o **tipo** (vídeo, áudio ou imagem)
-2. Ajuste a **qualidade** com `Q`
-3. Altere a **dublagem** com `D`
-4. Pressione `B` para começar
+## Como Funciona
+1. **Escolha a ferramenta:** yt-dlp (áudio, vídeo), gallery-dl (imagem)
+2. **Selecione o tipo:** vídeo, áudio, imagem
+3. **Defina qualidade:** de 144p até 2140p (4K) com dublagem preferencial
+4. **Pronto**
 
-> ⚠️ **Nota**: O download será salvo na mesma pasta onde o `.bat` está localizado.
+> [!WARNING]
+> O download será salvo na mesma pasta onde o `.bat` está localizado.
 
-## 🙏 Créditos
-Este projeto é uma adaptação e melhoria do script original criado por [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
+## Contribuições (mesmo não sendo programador)
+Se te ajudou, tiver sugestões ou encontrou um bug, me avise.
+- [Reportar Bug](https://github.com/KindDyu/Kitsune/issues/new)
+
+## Créditos
+Baseado no trabalho incrível de [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
 
 ---
 
-<div align="center">
-
-⭐ Deixe uma estrela no [Kitsune](https://github.com/KindDyu/Kitsune) se o projeto te ajudou!
-
-</div>
+> **Nota do autor:** utilize, modifique, compartilhe livremente. Não tenho interesse em monetizar. Só quero que outras pessoas parem de sofrer com ferramentas que deveriam ser simples.
