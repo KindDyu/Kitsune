@@ -1,5 +1,9 @@
 # Kitsune
 
+Kitsune é uma interface interativa em português que elimina a necessidade de aprender linha de comando.
+
+---
+
 ## Instalação (Windows)
 ### Instalar todas as dependências de uma vez
 Abra o **Terminal** (PowerShell ou CMD) como Administrador e cole:
@@ -12,6 +16,8 @@ winget install -e --id yt-dlp.yt-dlp mikf.gallery-dl
 git clone https://github.com/KindDyu/Kitsune.git
 ```
 
+![Menu principal do Kitsune](screenshots/Kitsune.png)
+
 ## Como Funciona
 1. **Escolha a ferramenta:** yt-dlp (áudio, vídeo), gallery-dl (imagem)
 2. **Selecione o tipo:** vídeo, áudio, imagem
@@ -23,7 +29,7 @@ git clone https://github.com/KindDyu/Kitsune.git
 
 ## Contribuições (mesmo não sendo programador)
 Se te ajudou, tiver sugestões ou encontrou um bug, me avise.
-- [Reportar Bug](https://github.com/KindDyu/Kitsune/issues/new)
+- ["Create new issue"](https://github.com/KindDyu/Kitsune/issues/new)
 
 ## Créditos
 Baseado no trabalho incrível de [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
