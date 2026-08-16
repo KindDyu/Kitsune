@@ -38,3 +38,11 @@ Dê duplo-clique no `Kitsune.bat`. O menu interativo abrirá automaticamente.
 
 ## 🙏 Créditos
 Este projeto é uma adaptação e melhoria do script original criado por [domocorn](https://github.com/domocorn/yt-dlp-interactive-batch).
+
+---
+
+<div align="center">
+
+⭐ Deixe uma estrela no [Kitsune](https://github.com/KindDyu/Kitsune) se o projeto te ajudou!
+
+</div>
